@@ -1,0 +1,7 @@
+
+.search-result-item:hover { background: rgba(255, 255, 255, 0.08) !important; }
+
+
+.search-item-play-overlay { display: none; position: absolute; inset: 0; background: rgba(0,0,0,0.6); align-items: center; justify-content: center; color: white; }
+.search-result-item:hover .search-item-play-overlay { display: flex; }
+

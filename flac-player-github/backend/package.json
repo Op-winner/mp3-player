@@ -1,0 +1,29 @@
+{
+  "name": "flac-player-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the FLAC music player: upload, metadata extraction, streaming, playlists.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chokidar": "^5.0.0",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.4",
+    "multer": "^2.0.0",
+    "music-metadata": "^11.15.0",
+    "nanoid": "^5.0.7",
+    "yt-dlp-exec": "^1.0.2"
+  }
+}
