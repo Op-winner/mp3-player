@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://mp3player1-ufeiocxo.b4a.run/api/:match*"
+    }
+  ]
+}
